@@ -8,7 +8,7 @@ A responsive personal CV for **Bryan Sinsano Balidiong**, a fourth-year Bachelor
 
 - HTML5 for page structure
 - CSS3 for the responsive design and print layout
-- A small JavaScript `window.print()` action for the Print CV button
+- Vanilla JavaScript for the Print CV button and accessible scroll reveals
 - Google Fonts: DM Sans, Space Grotesk, and JetBrains Mono
 
 ## Project structure
@@ -20,6 +20,8 @@ Personal-CV/
 ├── assets/
 │   ├── css/
 │   │   └── styles.css      # Site and print styles
+│   ├── js/
+│   │   └── scroll-effects.js # Scroll entrance effects
 │   ├── images/             # Portrait, project previews, and certificates
 │   └── favicon.svg
 └── README.md
@@ -28,6 +30,8 @@ Personal-CV/
 ## Run locally
 
 Open `index.html` in a browser. No installation or build step is required. For a local HTTP preview, run `python -m http.server 8000` from the repository folder and open `http://localhost:8000/`.
+
+Project previews use consistent frames, with AI-Vigilation featured first. Award and certificate previews open the full images. Scroll effects run once per block and are disabled for visitors who prefer reduced motion.
 
 ## Deployment
 
